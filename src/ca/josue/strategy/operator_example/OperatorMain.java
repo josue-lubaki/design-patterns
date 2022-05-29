@@ -1,8 +1,8 @@
 package ca.josue.strategy.operator_example;
 
-import ca.josue.strategy.operator_example.operators.StrategyAdd;
-import ca.josue.strategy.operator_example.operators.StrategyMultiply;
-import ca.josue.strategy.operator_example.operators.StrategySubstract;
+import ca.josue.strategy.operator_example.strategies.StrategyAdd;
+import ca.josue.strategy.operator_example.strategies.StrategyMultiply;
+import ca.josue.strategy.operator_example.strategies.StrategySubstract;
 
 import java.util.Scanner;
 

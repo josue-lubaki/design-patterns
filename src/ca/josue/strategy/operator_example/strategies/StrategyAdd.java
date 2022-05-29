@@ -1,6 +1,4 @@
-package ca.josue.strategy.operator_example.operators;
-
-import ca.josue.strategy.operator_example.Strategy;
+package ca.josue.strategy.operator_example.strategies;
 
 /**
  * @author Josue Lubaki

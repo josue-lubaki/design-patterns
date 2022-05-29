@@ -1,5 +1,7 @@
 package ca.josue.strategy.operator_example;
 
+import ca.josue.strategy.operator_example.strategies.Strategy;
+
 /**
  * @author Josue Lubaki
  * @version 1.0
