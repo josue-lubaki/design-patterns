@@ -1,4 +1,4 @@
-package ca.josue.strategy.operator_exemple;
+package ca.josue.strategy.operator_example;
 
 /**
  * @author Josue Lubaki
