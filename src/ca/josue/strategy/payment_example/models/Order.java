@@ -1,6 +1,6 @@
-package ca.josue.strategy.payment_example.order.models;
+package ca.josue.strategy.payment_example.models;
 
-import ca.josue.strategy.payment_example.order.PaymentStrategy;
+import ca.josue.strategy.payment_example.strategies.PaymentStrategy;
 
 /**
  * @author Josue Lubaki

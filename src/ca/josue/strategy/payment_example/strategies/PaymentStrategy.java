@@ -1,4 +1,4 @@
-package ca.josue.strategy.payment_example.order;
+package ca.josue.strategy.payment_example.strategies;
 
 /**
  * @author Josue Lubaki

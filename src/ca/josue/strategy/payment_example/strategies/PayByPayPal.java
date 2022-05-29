@@ -1,6 +1,4 @@
-package ca.josue.strategy.payment_example.order.strategies;
-
-import ca.josue.strategy.payment_example.order.PaymentStrategy;
+package ca.josue.strategy.payment_example.strategies;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

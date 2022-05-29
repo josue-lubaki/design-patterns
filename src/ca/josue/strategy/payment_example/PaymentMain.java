@@ -1,9 +1,10 @@
-package ca.josue.strategy.payment_example.order;
+package ca.josue.strategy.payment_example;
 
-import ca.josue.strategy.payment_example.order.models.Order;
-import ca.josue.strategy.payment_example.order.models.Product;
-import ca.josue.strategy.payment_example.order.strategies.PayByCreditCard;
-import ca.josue.strategy.payment_example.order.strategies.PayByPayPal;
+import ca.josue.strategy.payment_example.models.Order;
+import ca.josue.strategy.payment_example.models.Product;
+import ca.josue.strategy.payment_example.strategies.PayByCreditCard;
+import ca.josue.strategy.payment_example.strategies.PayByPayPal;
+import ca.josue.strategy.payment_example.strategies.PaymentStrategy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -84,7 +85,7 @@ public class PaymentMain {
             System.out.println("How many units of " + products.get(choice).getName() + " do you want to buy ? (Quantity)");
             int quantity = Integer.parseInt(READER.readLine());
             order.setTotalCost(cost * quantity);
-            System.out.println("Total cost: " + order.getTotalCost());
+            System.out.println("Total cost: " + order.getTotalCost() + " CAD");
             System.out.println("Do you want to continue? (Y/N)");
             continueChoice = READER.readLine();
 
